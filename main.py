@@ -7,6 +7,10 @@ app = FastAPI()
 async def root():
     return {"message": "Hello World"}
 
+@app.post("/start_session")
+def start_session():
+    return {"message": "Session started"}
+
 @app.get("/items/{item_id}")
 async def read_item(item_id: int):
     return {"item_id": item_id}
