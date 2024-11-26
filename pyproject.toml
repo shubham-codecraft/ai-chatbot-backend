@@ -1,9 +1,8 @@
 [tool.poetry]
-name = "ai-chatbot-backend"
+name = "fastapi-project"
 version = "0.1.0"
-description = ""
-authors = ["shubham-codecraft <mane71396@gmail.com>"]
-package-mode = false
+description = "A FastAPI project with a single entry point."
+authors = ["Shubham Mane <mane71396@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
