@@ -13,6 +13,7 @@ python-jose = "^3.3.0"
 passlib = "^1.7.4"
 cffi = "^1.17.1"
 argon2-cffi = "^23.1.0"
+email-validator = "^2.2.0"
 
 
 [build-system]
