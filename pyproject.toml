@@ -3,6 +3,7 @@ name = "ai-chatbot-backend"
 version = "0.1.0"
 description = ""
 authors = ["shubham-codecraft <mane71396@gmail.com>"]
+package-mode = false
 readme = "README.md"
 
 [tool.poetry.dependencies]
